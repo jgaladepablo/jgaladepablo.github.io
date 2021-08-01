@@ -23,6 +23,7 @@ p a:hover {
 /*------------------------- Header ------------------------*/
 .header {
 	height:auto;
+	font-size:200%;
 }
 .header div {
 	height:60px;
@@ -56,8 +57,8 @@ p a:hover {
 .header div ul li a {
 	color:#A7754D;
 	font-family: 'Helvetica';
-	font-size:12px;
-	letter-spacing:2px;
+	/* font-size:12px; */
+	/* letter-spacing:2px; */
 	text-decoration:none;
 	/* text-transform:uppercase; */
 }
@@ -69,7 +70,7 @@ p a:hover {
 	z-index:1000;
 }
 .header div ul li:hover ul {
-	left:0;
+	/* left:0; */
 }
 .header div ul li ul li:first-child {
 	background-color:#ddd;
@@ -88,7 +89,7 @@ p a:hover {
 .header div ul li ul li a {
 	color:#464c5d!important;
 	font-family: 'Helvetica';
-	font-size:12px;
+	/* font-size:12px; */
 	/* text-transform:uppercase; */
 	display:block;
 	padding: 5px 10px  5px 10px;
@@ -115,9 +116,9 @@ p a:hover {
 	width:960px;
 }
 .header .featured div h3 {
-	color:#000;
+	color:#A7754D;
 	font-family:'Helvetica';
-	font-size:40px;
+	font-size:100%;
 	font-weight:400;
 	left:100px;
 	line-height:50px;
@@ -132,8 +133,6 @@ p a:hover {
 	background:url(../images/interface.png) no-repeat 15px -35px;
 	color:#BCC4DB;
 	display:block;
-	font-family: 'Helvetica';
-	font-size:14px;
 	height:31px;
 	left:575px;
 	line-height:32px;
@@ -149,22 +148,24 @@ p a:hover {
 }
 /*------------------------- Body ------------------------*/
 .body {
-	padding:0 0 30px;
+	padding:4% 4% 6% 2%;
+	font-family: "Helvetica", "Arial", Sans-Serif;
+	font-size:100%;
 	z-index:100;
 }
 .body div {
 	margin:0 auto;
 	overflow:hidden;
-	width:960px;
+	width:92%;
 }
 .body div h2 {
-	color:#345995;
+	color:#644536;
 	font-family: 'Helvetica';
-	font-size:35px;
+	font-size:150%;
 	font-weight:400;
-	letter-spacing:2px;
+	letter-spacing:4px;
 	margin:24px 0 0;
-	/* text-transform:uppercase; */
+	text-transform:uppercase;
 }
 .body div h2 a {
 	color:#BCC4DB;
@@ -172,11 +173,11 @@ p a:hover {
 .body div p {
 	color:#345995;
 	font-family: 'Helvetica';
-	font-size:16px;
+	font-size:100%;
 	line-height:24px;
 	margin:27px 0 0;
-	text-align:justify;
-	letter-spacing:0.001em;
+	text-align:left;
+	/* letter-spacing:0.001em; */
 }
 .body div p a {
 	color:#345995;
@@ -186,34 +187,39 @@ p a:hover {
 }
 .body div ul {
 	list-style:none;
-	margin:22px 0 0;
+	margin:0 2% 2% 2%;
 	overflow:hidden;
 	padding:0;
 }
 .body div ul li {
 	float:left;
-	margin:0 0 0 11px;
+	margin:0 2% 2% 2%;
 	text-align:center;
+	width:21%;
 }
 .body div ul li a:first-child {
 	background:none;
 	height:auto;
-	margin:0 auto;
-	width:200px;
+	margin:0 2%;
+	width:21%;
+}
+.body div ol li {
+	font-family:"Helvetica";
+	color:#345995
 }
 /* .body div ul li a:first-child img:hover {
 	filter:alpha(opacity=90);/* Needed for IE8 and old versions */
 	opacity:0.9;
 } */
-.body div ul li a:first-child:hover {
+/* .body div ul li a:first-child:hover {
 	background:none;
-}
+} */
 .body div ul li a {
 	/* background:url(../images/interface.png) no-repeat 0 -97px; */
 	color:#345995;
 	display:block;
 	font-family: 'Helvetica';
-	font-size:16px;
+	font-size:100%;
 	height:54px;
 	letter-spacing:2px;
 	line-height:55px;
@@ -225,7 +231,7 @@ p a:hover {
 	background:url(../images/interface.png) no-repeat 0 -152px;
 	text-decoration:none!important;
 } */
-.body .about ul {
+/* .body .about ul {
 	list-style:none;
 	margin:0;
 	padding:26px 0 0;
@@ -250,6 +256,7 @@ p a:hover {
 	color:#BCC4DB;
 	display:inline;
 	font-size:14px;
+	font-family:"Helvetica";
 	letter-spacing:0;
 	line-height:24px;
 	text-transform:capitalize;
@@ -259,12 +266,12 @@ p a:hover {
 }
 .body .about ul li p a {
 	color:#345995;
-}
-.body .about ul li p a:hover {
+} */
+/* .body .about ul li p a:hover {
 	color:#BCC4DB!importanto;
 	background:none;
-}
-.body .collections .navigation {
+} */
+/* .body .collections .navigation {
 	background:url(../images/bg-navigation.png) no-repeat;
 	height:45px;
 	padding:0;
@@ -294,12 +301,12 @@ p a:hover {
 	line-height:44px;
 	text-decoration:none;
 	/* text-transform:uppercase; */
-	width:auto;
+	/* width:auto;
 }
 .body .collections .navigation ul li a:hover, .body .collections .navigation ul li.selected a {
-	color:#fff;
-}
-.body .collections div {
+	/* color:#fff; 
+} */
+/* .body .collections div {
 	background:url(../images/bg-content.png) no-repeat left bottom #ddd;
 	margin:0 auto;
 	padding:0 39px 36px;
@@ -355,7 +362,7 @@ p a:hover {
 	font-family: 'Helvetica';
 	font-size:12px;
 	margin:0;
-	/* text-transform:uppercase; */
+	/* text-transform:uppercase; 
 	width:auto;
 }
 .body .blog div:first-child div div:first-child h3 {
@@ -368,13 +375,13 @@ p a:hover {
 	font-weight:400;
 	letter-spacing:2px;
 	line-height:24px;
-	/* text-transform:uppercase; */
+	/* text-transform:uppercase; 
 	text-decoration:none;
 }
 .body .blog div:first-child div div:first-child h3 a:hover {
 	color:#000;
-}
-.body .blog div:first-child div div:first-child a {
+} */
+/* .body .blog div:first-child div div:first-child a {
 	color:#345995;
 	display:block;
 	font-family: 'Helvetica';
@@ -382,31 +389,31 @@ p a:hover {
 	letter-spacing:2px;
 	line-height:24px;
 	margin:0 0 1px;
-	/* text-transform:uppercase; */
-}
-.body .blog div:first-child div div:first-child a:hover {
-	color:#BCC4DB;
-}
-.body .blog div:first-child div div:first-child span {
+	text-transform:uppercase; 
+} */
+/* .body .blog div:first-child div div:first-child a:hover {
+	/* color:#BCC4DB;
+} */
+/* .body .blog div:first-child div div:first-child span {
 	color:#345995;
 	display:block;
 	font-family: 'Helvetica';
 	font-size:12px;
 	margin:23px 0 0;
-	/* text-transform:uppercase; */
+	/* text-transform:uppercase;
 	width:190px;
-}
-.body .blog div:first-child div div:first-child span a {
+} */
+/* .body .blog div:first-child div div:first-child span a {
 	color:#345995;
 	display:inline;
 	font-family: 'Helvetica';
 	font-size:12px;
-	/* text-transform:uppercase; */
-}
-.body .blog div:first-child div div:first-child span a:hover {
+	text-transform:uppercase;
+} */
+/* .body .blog div:first-child div div:first-child span a:hover {
 	color:#BCC4DB;
-}
-.body .blog div:first-child div div {
+} */
+/* .body .blog div:first-child div div {
 	border:0;
 	float:left;
 	margin:0 0 0 10px;
@@ -429,9 +436,9 @@ p a:hover {
 	letter-spacing:2px;
 	line-height:24px;
 	margin:0 0 10px;
-	/* text-transform:uppercase; */
-}
-.body .blog div div:first-child {
+	/* text-transform:uppercase;
+} */
+/* .body .blog div div:first-child {
 	background:none;
 	padding-top:0;
 	width:auto;
@@ -451,8 +458,8 @@ p a:hover {
 	font-size:14px;
 	letter-spacing:0.001em;
 	line-height:24px;
-}
-.body .blog div div ul li a:hover {
+} */
+/* .body .blog div div ul li a:hover {
 	color:#BCC4DB;
 }
 .body .blog p a:hover{
@@ -475,9 +482,9 @@ p a:hover {
 	letter-spacing:2px;
 	line-height:24px;
 	margin:0 0 13px;
-	/* text-transform:uppercase; */
-}
-.body .locator .search form {
+	text-transform:uppercase;
+} */
+/* .body .locator .search form {
 	background:url(../images/bg-search.png) no-repeat;
 	height:183px;
 	padding:22px 0 0 26px;
@@ -493,7 +500,7 @@ p a:hover {
 	font-size:12px;
 	letter-spacing:1px;
 	margin:21px 0 3px;
-	/* text-transform:uppercase; */
+	/* text-transform:uppercase;
 }
 .body .locator .search form input {
 	background-color:#fff;
@@ -516,7 +523,7 @@ p a:hover {
 	height:34px;
 	letter-spacing:1px;
 	margin:16px 0 0;
-	/* text-transform:uppercase; */
+	/* text-transform:uppercase;
 	width:186px;
 }
 .body .locator .search input#submit:hover {
@@ -549,7 +556,7 @@ p a:hover {
 	font-size:14px;
 	font-weight:400;
 	margin:0;
-	/* text-transform:uppercase; */
+	/* text-transform:uppercase;
 }
 .body .locator ul li div a {
 	background:none;
@@ -561,8 +568,8 @@ p a:hover {
 	line-height:13px;
 	margin:30px 0 45px;
 	text-decoration:underline;
-}
-.body div ul li a:hover {
+} */ 
+/* .body div ul li a:hover {
 	color:#D5D5D5;
 }
 .body div ul li:first-child, .body .about ul li:first-child, .body .collections div ul li:first-child, .body .blog div div ul, .body .locator ul li:first-child {
@@ -572,7 +579,7 @@ p a:hover {
 	height:auto;
 	min-height:1284px;
 	padding:29px 0 0;
-}
+} */
 /*------------------------- Footer ------------------------*/
 .footer {
 	border-top:1px solid #dedede;
