@@ -16,7 +16,7 @@ body {
 	margin: 0px;
 	padding: 0px;
 	color: #777;	/*全体の文字色*/
-	font-family:"ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;	/*フォント種類*/
+	font-family:"Arial", sans-serif;	/*フォント種類*/
 	font-size: 16px;	/*文字サイズ*/
 	line-height: 2;		/*行間*/
 	background: #fff url(../images/bg1.jpg);	/*背景色、背景画像の読み込み*/
@@ -183,6 +183,8 @@ header #logo {
 	background: url(../images/arrow1.png) no-repeat left center, linear-gradient(#a4d4f0, #83c0e4 49%, #63b2e3 50%);	/*背景画像の読み込み、グラデーション*/
 	border-radius: 30px;	/*角丸のサイズ*/
 	padding: 10px 20px 10px 50px;	/*上、右、下、左への見出し内の余白*/
+	/*font-family: "Impact";*/
+	font-weight: 600
 }
 /*h3タグ*/
 #main h3 {
