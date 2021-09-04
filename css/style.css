@@ -274,8 +274,9 @@ footer {
 	clear: both;
 	text-align: center;
 	padding-bottom: 20px;
+	color:#fff;
 }
-footer a {text-decoration: none;}
+footer a {text-decoration: none; color: #83c0e4}
 footer .pr {display: block;}
 
 /*トップページ内「更新情報・お知らせ」ブロック
