@@ -3,7 +3,6 @@
 
 /*slide.cssと、lightbox.cssの読み込み
 ------------------------------------------------------------------------------------------------------------------------------------------------------*/
-slide.cssと、lightbox.cssの読み込み
 @import url(slide.css);
 /*@import url(lightbox.css);*/
 
@@ -265,7 +264,8 @@ header #logo {
 }
 /*メニュー１個ごとの設定*/
 #menubar li a {
-	text-decoration: none;display: block;
+	text-decoration: none;
+	display: block;
 	padding: 10px;	/*ボックス内の余白*/
 	border-bottom: 2px dotted #ccc;	/*下の線の幅、線種、色*/
 }
@@ -280,7 +280,7 @@ footer {
 	clear: both;
 	text-align: center;
 	padding-bottom: 20px;
-	color:#fff;
+	color:#55b8f1;
 }
 footer a {text-decoration: none; color: #83c0e4}
 footer .pr {display: block;}
@@ -461,10 +461,11 @@ p.check a {color: #fff;}
 /*スマホ用メニューブロック*/
 #menubar-s {
 	display: block;overflow: hidden;
-	position: absolute;z-index: 2;
+	position: absolute;
+	z-index: 2;
 	top: 0px;
-	left: 0px;
-	width: 100%;
+	left: 40%;
+	width: 60%;
 	animation-name: menubar;		/*上のkeyframesの名前*/
 	animation-duration: 0.5s;	/*アニメーションの実行時間。0.5秒。*/
 	animation-fill-mode: both;	/*待機中は最初のキーフレームを、完了後は最後のキーフレームを維持*/
@@ -472,10 +473,11 @@ p.check a {color: #fff;}
 }
 /*メニュー１個あたりの設定*/
 #menubar-s li a {
-	display: block;text-decoration: none;
-	padding: 10px 3%;	/*メニュー内の余白。上下、左右。*/
+	display: block;
+	text-decoration: none;
+	padding: 5px 3%;	/*メニュー内の余白。上下、左右。*/
 	color: #fff;		/*文字色*/
-	font-size: 20px;	/*文字サイズ*/
+	font-size: 14px;	/*文字サイズ*/
 	text-align: center;	/*テキストをセンタリング*/
 	border-bottom: 1px solid #fff;	/*下の線の幅、線種、色*/
 }
@@ -491,7 +493,9 @@ p.check a {color: #fff;}
 ---------------------------------------------------------------------------*/
 /*３本バーブロック*/
 #menubar_hdr {
-	display: block;position: absolute;z-index: 3;
+	display: block;
+	position: absolute;
+	z-index: 3;
 	top: 5px;	/*上からの配置場所*/
 	right: 1%;	/*右からの配置場所*/
 }
