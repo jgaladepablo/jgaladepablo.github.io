@@ -35,6 +35,13 @@ img {border: none;
 table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
 iframe {width: 100%;}
 
+/*Embedded Tweets
+---------------------------------------------------------------------------*/
+
+.embed-twitter {
+    width: 75% !important;
+}
+
 /*Font awesome
 ---------------------------------------------------------------------------*/
 
