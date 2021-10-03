@@ -136,11 +136,11 @@ iframe {width: 100%;}
 /*リンク（全般）設定
 ---------------------------------------------------------------------------*/
 a {
-	color: #777;		/*リンクテキストの色*/
+	color: rgb(255, 255, 255);	/*リンクテキストの色*/
 	transition: 0.4s;	/*マウスオン時の移り変わるまでの時間設定。0.4秒。*/
 }
 a:hover {
-	color: #63b2e3;			/*マウスオン時の文字色*/
+	color: #7c99fc;			/*マウスオン時の文字色*/
 	text-decoration: none;	/*マウスオン時に下線を消す設定。残したいならこの１行削除。*/
 }
 
@@ -153,7 +153,7 @@ a:hover {
 	box-shadow: 0px 0px 10px rgba(0,0,0,0.2);	/*ボックスの影。右へ、下へ、ぼかし幅。0,0,0は黒の事で0.2は色が20%ついた状態の事。*/
 	border-radius: 30px;	/*角丸のサイズ*/
 	padding: 40px;		/*ボックス内の余白*/
-	background: #fff;	/*背景色*/
+	background: rgb(0, 0, 0);	/*背景色*/
 }
 
 /*headerブロック
@@ -185,6 +185,7 @@ header #logo {
 	overflow: hidden;
 	float: right;		/*右に回り込み*/
 	width: 70%;			/*ブロックの幅*/
+	color: rgb(212, 212, 212);
 }
 /*h2タグ*/
 #main h2 {
@@ -192,7 +193,7 @@ header #logo {
 	margin-bottom: 20px;	/*見出しの下(外側)に空けるスペース*/
 	color: #fff;			/*文字色*/
 	background: #63b2e3 url(../images/arrow1.png) no-repeat left center;	/*背景色と背景画像（古いブラウザ用）*/
-	background: url(../images/arrow1.png) no-repeat left center, linear-gradient(#a4d4f0, #83c0e4 49%, #63b2e3 50%);	/*背景画像の読み込み、グラデーション*/
+	background: url(../images/arrow1.png) no-repeat left center, linear-gradient(rgb(68, 168, 250), rgb(49, 43, 129) 49%, rgb(49, 43, 129) 50%);	/*背景画像の読み込み、グラデーション*/
 	border-radius: 30px;	/*角丸のサイズ*/
 	padding: 10px 20px 10px 50px;	/*上、右、下、左への見出し内の余白*/
 	/*font-family: "Impact";*/
@@ -202,8 +203,8 @@ header #logo {
 #main h3 {
 	clear: both;
 	margin-bottom: 20px;	/*見出しの下(外側)に空けるスペース*/
-	color: #333;			/*文字色*/
-	background: linear-gradient(#fff, #eee);	/*グラデーション*/
+	color: rgb(255, 255, 255);			/*文字色*/
+	background: linear-gradient(rgb(68, 168, 250), rgb(49, 43, 129));	/*グラデーション*/
 	border-radius: 30px;	/*角丸のサイズ*/
 	padding: 5px 20px;		/*上下、左右への見出し内の余白*/
 	border: 1px solid #ccc;	/*枠線の幅、線種、色*/
@@ -211,6 +212,15 @@ header #logo {
 /*段落(p)タグ*/
 #main p {
 	padding: 0 20px 20px;	/*上、左右、下への余白*/
+}
+
+#main quote {
+	margin: 10px;
+	padding: 0.5em 10px;
+	text-align: center;
+	font-style: italic;
+	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+	font-size: 1.25em;
 }
 /*他*/
 #main p + p {
@@ -268,6 +278,7 @@ header #logo {
 /*メニューブロック全体の設定*/
 #menubar {
 	margin-bottom: 20px;	/*メニューブロックの下にあけるスペース*/
+	background-color: rgb(27, 27, 27);
 }
 /*メニュー１個ごとの設定*/
 #menubar li a {
