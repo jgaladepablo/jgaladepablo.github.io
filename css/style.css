@@ -222,7 +222,7 @@ header #logo {
 	content: "\f10d";
 	font-size: 2em;
 	vertical-align: 0em;
-	margin-left: -3%;
+	margin-left: -50px;
 	margin-top: -0.4em;
 }
 
@@ -244,7 +244,7 @@ header #logo {
 	content: "\f10e";
 	font-size: 2em;
 	vertical-align: 0em;
-	margin-left: 1%;
+	margin-left: 20px;
 	margin-top: -0.4em;
 }
 
