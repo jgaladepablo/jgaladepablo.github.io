@@ -35,6 +35,13 @@ img {border: none;
 table {border-collapse:collapse;font-size: 100%;border-spacing: 0;}
 iframe {width: 100%;}
 
+/* Scroll Reveal
+---------------------------------------------------------------------------*/
+html.sr .load-hidden {
+    visibility: hidden;
+}
+
+
 /*Embedded Tweets
 ---------------------------------------------------------------------------*/
 
