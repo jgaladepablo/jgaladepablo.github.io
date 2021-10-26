@@ -214,18 +214,43 @@ header #logo {
 	padding: 0 20px 20px;	/*上、左右、下への余白*/
 }
 
+#main quote:before {
+	position: absolute;
+	/* content: "“"; */
+	/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+	font-family: 'FontAwesome';
+	content: "\f10d";
+	font-size: 2em;
+	vertical-align: 0em;
+	margin-left: -3%;
+	margin-top: -0.4em;
+}
+
 #main quote {
 	/* padding: 0.1em; */
 	/* text-align: center; */
 	float:right;
-	margin: 0.3em 70px 1.5em;
+	margin: 0.3em 100px 1em;
 	/* font-style: italic; */
 	font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 	font-size: 1.3em;
 }
 
+#main quote:after {
+	position: absolute;
+	/* content: "”"; */
+	/* font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; */
+	font-family: 'FontAwesome';
+	content: "\f10e";
+	font-size: 2em;
+	vertical-align: 0em;
+	margin-left: 1%;
+	margin-top: -0.4em;
+}
+
 q {
-	quotes:"“""”";
+	/* quotes:"“""”"; */
+	quotes:"""";
   }
 
 /*他*/
