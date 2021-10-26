@@ -567,7 +567,7 @@ body.s-n #sub,body.s-n #footermenu,.m-n {display: none;}
 /*全体の設定
 ---------------------------------------------------------------------------*/
 body {
-	font-size: 11px;	/*文字サイズ*/
+	font-size: 14px;	/*文字サイズ*/
 	background: #fff;	/*背景色*/
 }
 
