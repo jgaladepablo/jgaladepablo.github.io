@@ -14,11 +14,15 @@
 <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
 <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
 <![endif]-->
+<script src="https://unpkg.com/scrollreveal@4"></script>
+<script>
+  ScrollReveal({ duration: 1000 })
+</script>
 </head>
 
 <body>
 
-<div id="container">
+<div class="headline"; id="container">
 
 <header>
 <h1 id="logo"><a href="index.html"><img src="images/figure1.png" alt="Gala de Pablo"></a></h1>
@@ -33,10 +37,10 @@
 
 <section>
 
-<h2>Contact</h2>
+<h2 class="headline">Contact</h2>
 
-<h3>Affiliation</h2>
-	<p>
+<h3 class="headline">Affiliation</h2>
+	<p class="text">
 		Dr. Julia Gala de Pablo <br>
 		JSPS fellow <br>
 		East Chemistry Building <br>
@@ -45,32 +49,34 @@
 		Tokyo, Japan <br>
 		113-0033
 	</p>
-	<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.4428169648577!2d139.76002681436333!3d35.71532663571045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c31ddbb7f3d%3A0xbd0405ee5578fa7f!2sThe%20Serendipity%20Lab!5e0!3m2!1sen!2sjp!4v1628732493864!5m2!1sen!2sjp" 
+	<iframe class="text"; src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3239.4428169648577!2d139.76002681436333!3d35.71532663571045!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188c31ddbb7f3d%3A0xbd0405ee5578fa7f!2sThe%20Serendipity%20Lab!5e0!3m2!1sen!2sjp!4v1628732493864!5m2!1sen!2sjp" 
 	width="100" height="150" style="border:0;" loading="lazy"></iframe>
 
 
-<h3>Email</h2>
+<h3 class="headline">Email</h2>
 
-	I am always interested in new collaborations and science discussion. Feel free to contact me via email.
+	<p class="text"> I am always interested in new collaborations and science discussion. Feel free to contact me via email.
+	</p>
+	
 <p>
 	<ul style="list-style-type: circle">
-	<li><a href="mailto:gala@chem.s.u-tokyo.ac.jp" class="fa fa-envelope" style="padding: 0;"></a>  University of Tokyo Institutional email <i>(available until the 5th of November 2021)</i></li>
-	<li><a href="mailto:jgaladepablo@gmail.com" class="fa fa-envelope" style="padding: 0;"></a>  Gmail</li>
+	<li class="text"><a href="mailto:gala@chem.s.u-tokyo.ac.jp" class="fa fa-envelope" style="padding: 0;"></a>  University of Tokyo Institutional email <i>(available until the 5th of November 2021)</i></li>
+	<li class="text"><a href="mailto:jgaladepablo@gmail.com" class="fa fa-envelope" style="padding: 0;"></a>  Gmail</li>
 	</ul>
 </p>
 
-<h3>Academic links</h2>
+<h3 class="headline">Academic links</h2>
 	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons@1/css/academicons.min.css">
-	<p>
+	<p class="text">
 	<a target="_blank" href="https://publons.com/researcher/1614398/julia-gala-de-pablo/" class="ai ai-publons"></a>  
 	<a target="_blank" href="https://www.researchgate.net/profile/Julia-Gala-De-Pablo" class="ai ai-researchgate"></a>  
 	<a target="_blank" href="https://orcid.org/0000-0003-0557-9632" class="ai ai-orcid"></a>  
 	<a target="_blank" href="https://scholar.google.com/citations?user=QW-kz_gAAAAJ&hl=en" class="ai ai-google-scholar"></a>
 	</p>
 
-<h3>Social media</h2>
-	<p>	
+<h3 class="headline">Social media</h2>
+	<p class="text">	
 	<a target="_blank" href="https://twitter.com/JGaladePablo" class="fa fa-twitter"></a>
 	<a target="_blank" href="https://www.linkedin.com/in/juliagaladepablo/" class="fa fa-linkedin"></a> 
 	</p>
@@ -94,7 +100,7 @@
 <div id="sub">
 
 <!--PC用（801px以上端末）メニュー-->
-<nav id="menubar">
+<nav class="menu"; id="menubar">
 <h2>Contents</h2>
 <ul>
 	<li><a href="index.html">Home</a></li>
@@ -106,6 +112,12 @@
 </nav>
 
 <p><a href="#"><img src="images/logo.png" width=40% alt="Logo" class="pc"></a></p>
+
+<script>
+	ScrollReveal().reveal('.headline', { delay: 100 })
+	ScrollReveal().reveal('.text', { delay: 100 })
+	ScrollReveal().reveal('.menu', { delay: 300 })
+  </script>
 
 </div>
 <!--/#sub-->
